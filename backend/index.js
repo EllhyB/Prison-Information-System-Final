@@ -8,7 +8,7 @@ require("dotenv").config();
 
 //middleware
 const corsOptions = {
-  origin: "https://prison-management-system-frontend.vercel.app/",
+  origin: "*",
   credential: true,
 };
 
