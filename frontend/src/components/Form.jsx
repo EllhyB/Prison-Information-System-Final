@@ -1,4 +1,5 @@
 import bgImage from "../assets/bg.png";
+import bjmpgma from "../assets/BJMPGMA.jpg";
 import bjmplogo from "../assets/BJMP LOGO.png";
 import { HiExclamation } from "react-icons/hi";
 import { BiSearchAlt } from "react-icons/bi";
@@ -171,7 +172,7 @@ const Form = () => {
           <div
             className="flex flex-col min-h-screen md:bg-cover overflow-hidden"
             style={{
-              backgroundImage: `url(${bgImage})`,
+              backgroundImage: `url(${bjmpgma})`,
             }}
           >
             <div
@@ -206,7 +207,7 @@ const Form = () => {
               )}
               <img
                 src={bjmplogo}
-                className="absolute md:top-[50px] md:right-14 w-64 md:w-72 right-0 top-[-15px] "
+                className="absolute md:top-[50px] md:right-14 w-64 md:w-64 right-0 top-[-15px] "
               />
             </header>
             <div className="flex items-center justify-center z-30 mt-10">
@@ -308,7 +309,7 @@ const Form = () => {
                 {showModal && <TermsAndConditionsModal onClose={handleTerms} />}
                 <h3 className="text-center my-4">
                   For more information you may be obtained by requesting to
-                  <span className="font-semibold"> doc.PDL@example.com</span>
+                  <span className="font-semibold"> PDL.bjmp@gmail.com</span>
                 </h3>
                 {/* {PrisonNumber searching} */}
                 {/* Users Agreement checkbox and inline link */}
