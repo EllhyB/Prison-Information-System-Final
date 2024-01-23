@@ -1,0 +1,9 @@
+{
+  "name": "pis",
+  "version": "1.0.0",
+  "description": "prison-management-system",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
